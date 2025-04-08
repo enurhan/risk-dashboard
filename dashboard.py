@@ -19,7 +19,7 @@ with st.sidebar:
     
     **Built by:** Ekrem Nurhan  
     [GitHub](https://github.com/enurhan)  
-    [LinkedIn](www.linkedin.com/in/ekrem-nurhan-2b395b67)  
+    [LinkedIn](https://www.linkedin.com/in/ekrem-nurhan-2b395b67)  
     """)
     st.caption("Powered by Streamlit + yFinance")
 
