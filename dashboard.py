@@ -19,8 +19,8 @@ with st.sidebar:
     
     **Built by:** Ekrem Nurhan  
     [GitHub](https://github.com/enurhan)  
-    [LinkedIn](https://www.linkedin.com/in/ekrem-nurhan-2b395b67)  
-    """)
+    <a href="https://www.linkedin.com/in/ekrem-nurhan-2b395b67" target="_blank">LinkedIn</a>
+""", unsafe_allow_html=True)
     st.caption("Powered by Streamlit + yFinance")
 
 # === Load Data ===
