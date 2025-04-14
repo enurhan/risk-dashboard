@@ -11,17 +11,28 @@ st.set_page_config(page_title="Bank Risk Dashboard", layout="wide")
 
 # === Sidebar Info ===
 with st.sidebar:
-    st.title("🧠 About")
     st.markdown("""
-    **Bank Risk Dashboard**
+        <style>
+        [data-testid="stSidebar"] {
+            width: 180px !important;      /* Set desired width */
+        }
+        </style>
+    """, unsafe_allow_html=True)
 
-    This tool analyzes market and enterprise risks across a Dow 20 equity portfolio.
+    st.title("About")
+    st.markdown("""
+    **Risk Dashboard**  
+    This tool analyzes enterprise risks across an equity portfolio.
+                
     
     **Built by:** Ekrem Nurhan  
     [GitHub](https://github.com/enurhan)  
     <a href="https://www.linkedin.com/in/ekrem-nurhan-2b395b67" target="_blank">LinkedIn</a>
-""", unsafe_allow_html=True)
+    """, unsafe_allow_html=True)
+    
     st.caption("Powered by Streamlit + yFinance")
+
+
 
 # === Load Data ===
 @st.cache_data
