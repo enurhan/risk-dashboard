@@ -33,7 +33,6 @@ with st.sidebar:
     st.caption("Powered by Streamlit + yFinance")
 
 
-
 # === Load Data ===
 @st.cache_data
 def load_data():
